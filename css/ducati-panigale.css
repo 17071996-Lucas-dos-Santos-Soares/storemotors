@@ -1,7 +1,8 @@
 .banner{
     width: 100%;
-    height: 350px;
-    background-image: url(/motostore/images/ducati-panigale-1.jpg);
+    height: 400px;
+    background-image: url(../images/ducati-panigale-1.jpg);
+    background-size: 100%, 100%;
     background-repeat: no-repeat;
     background-position: center, center;
 }
