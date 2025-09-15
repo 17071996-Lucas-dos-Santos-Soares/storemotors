@@ -25,7 +25,9 @@
     border-radius: 30px;
     text-decoration: none;
 }
-
+.galeria img{
+    margin-left: 130px;
+}
 .form label{
     color: #f1f1f1;
 }
@@ -33,7 +35,7 @@
     .banner{
     width: 100%;
     height: auto;
-    background-image: url(../images/banner-honda-cbr-.webp);
+    background-image: url(../images/ducati-paginale-4.webp);
     background-size: 100%, 120%;
     background-repeat: no-repeat;
     background-position: center, center;

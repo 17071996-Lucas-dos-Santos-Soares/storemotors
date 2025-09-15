@@ -25,7 +25,9 @@
     border-radius: 30px;
     text-decoration: none;
 }
-
+.galeria img{
+    margin-left: 130px;
+}
 .form label{
     color: #f1f1f1;
 }
