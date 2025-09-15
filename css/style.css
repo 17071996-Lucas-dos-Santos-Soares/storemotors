@@ -547,7 +547,7 @@ section.galeria{
     margin-bottom: 10px;
     gap: 1rem;
     transition: all .3s ease-in-out;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 .galeria img:hover{
     transition: all .3s ease-in-out;
