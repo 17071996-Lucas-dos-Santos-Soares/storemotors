@@ -26,11 +26,14 @@
         font-size: 25px;
     }
     .banner a{
-        background: #f5f5f5;
-        font-size: 16px;
-        text-align: center;
-        margin-left: 80px;
-        margin-bottom: 20px;
+    background: #f5f5f5;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    color: #121212;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 30px;
     }
     .galeria img{
         padding-top: 60px;
@@ -43,11 +46,12 @@
         width: 100%;
         height: 400px;
     }
-    .banner a button{
-        background: red;
+    .banner a{
+        background: #f5f5f5;
         font-size: 16px;
         text-align: center;
-        margin: 0 auto;
+        margin-left: 80px;
+        margin-bottom: 20px;
     }
 
      .form h2{
