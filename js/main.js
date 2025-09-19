@@ -10,7 +10,7 @@ document.addEventListener('scroll', ()=>{
 
 const element = document.querySelector("#text")
 const text = "Viva a liberdade"
-const interval = 300
+const interval = 200;
 
 function showTxt(element, text, interval) {
     const char = text.split("").reverse()
