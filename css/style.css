@@ -324,7 +324,7 @@ section.galeriamoto{
 }
 
 .galeriamoto .itens-container .img-itens img{
-    max-width: 300px;
+    max-width: 480px;
     filter: drop-shadow(2px 10px 10px #f5f5f5);
     border-radius: 30px;
     padding-right: 2px;
