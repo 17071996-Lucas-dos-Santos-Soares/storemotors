@@ -289,8 +289,8 @@ section.hero-site {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #f5f5f5;
-  color: #000;
+  background-color: #9d9d9d;
+  color: #fff;
   font-weight: 300;
   text-decoration: none;
   border-radius: 8px;
@@ -308,21 +308,27 @@ section.galeriamoto{
     background: #000;
     padding: 80px 0px;
 }
-
+.itens-container{
+    width: 100%;
+    background-color: #fff;
+}
 .galeriamoto .itens-container{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 1.2rem;
     gap: 10%;
     margin-bottom: 60px;
+    padding-left: 20px;
 }
 
 .galeriamoto .itens-container .img-itens img{
-    max-width: 480px;
-    margin-top: 1rem;
+    max-width: 300px;
     filter: drop-shadow(2px 10px 10px #f5f5f5);
     border-radius: 30px;
+    padding-right: 2px;
+    padding-top: 10px;
 }
 .espaco img{
     margin-left: 30px;
@@ -339,15 +345,16 @@ section.galeriamoto{
     line-height: 40px;
     margin-bottom: 1.2rem;
     font-family: "Raleway", sans-serif;
-    color: #fff;
+    color: #000;
 }
 .galeriamoto .itens-container .txt-itens p{
     font-family: "Raleway", sans-serif;
-    color: #fff;
+    color: #000;
 }
 .galeriamoto .itens-container .txt-itens h3 span{
-    background: #f5f5f5;
-    color: #000;
+    background: #9d9d9d;
+    color: #fff;
+    padding: 8px;
     font-weight: 200;
 }
 
