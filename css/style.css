@@ -130,7 +130,7 @@ header .menu-desktop nav ul {
 header .menu-desktop nav ul li {
     display: inline-block;
     margin: 0px 20px;
-}
+ }
 
 header .menu-desktop nav ul li a {
     display: inline-block;
@@ -311,7 +311,6 @@ section.galeriamoto{
 }
 .itens-container{
     width: 100%;
-    background-color: #000;
 }
 .galeriamoto .itens-container{
     width: 100%;
