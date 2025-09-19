@@ -290,8 +290,8 @@ section.hero-site {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #fff;
-  color: #121212;
+  background-color: #121212;
+  color: #fff;
   font-weight: 300;
   text-decoration: none;
   border-radius: 8px;
@@ -311,6 +311,9 @@ section.galeriamoto{
 }
 .itens-container{
     width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: #808080 0px 5px 15px;
 }
 .galeriamoto .itens-container{
     width: 100%;
@@ -337,19 +340,17 @@ section.galeriamoto{
     transition: all .5s ease-in-out;
     transform: scale(1.1);
 }
-
-
 .galeriamoto .itens-container .txt-itens h3{
     font-size: 3rem;
     font-weight: 700;
     line-height: 40px;
     margin-bottom: 1.2rem;
     font-family: "Raleway", sans-serif;
-    color: #fff;
+    color: #121212;
 }
 .galeriamoto .itens-container .txt-itens p{
     font-family: "Raleway", sans-serif;
-    color: #fff;
+    color: #121212;
 }
 .galeriamoto .itens-container .txt-itens h3 span{
     background: #f1f1f1;
@@ -547,6 +548,9 @@ section.como-funciona{
 #showroom h3{
     color: #fafafa;
     font-size: 30px;
+}
+.card-body{
+    box-shadow: #808080 0px 5px 15px;
 }
 .card-custom img{
     width: 100%;
