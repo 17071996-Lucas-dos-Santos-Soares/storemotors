@@ -29,10 +29,12 @@
     .hero-site .txt-hero h2 {
         font-size: 2.5rem;
         line-height: 45px;
+        padding-left: 0px;
     }
     
     .hero-site .txt-hero p {
         font-size: 1rem;
+        padding-left: 0px;
     }
     
     .hero-site .txt-hero p span {
