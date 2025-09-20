@@ -258,7 +258,7 @@ section.hero-site {
     line-height: 70px;
     font-weight: 300;
     margin-top: 15rem;
-    padding-left: 100px;
+    padding-left: 175px;
     font-family: "Barlow Condensed", sans-serif;
 }
 
@@ -274,7 +274,7 @@ section.hero-site {
     font-size: 15px;
     font-weight: 300;
     margin: 20px 0px;
-    padding-left: 100px;
+    padding-left: 175px;
     font-family: "Raleway", sans-serif;
 }
 
@@ -287,7 +287,7 @@ section.hero-site {
     height: 60px;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 1.5rem;
-    margin-left: 100px;
+    margin-left: 175px;
 }
 .btn-whatsapp{
   display: inline-block;
