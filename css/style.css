@@ -289,12 +289,18 @@ section.hero-site {
     font-size: 1.5rem;
     margin-left: 175px;
 }
+.hero-site button:hover{
+  background: linear-gradient(50deg, #000, #fff);
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px #00000040;
+  color: #fff;
+}
 .btn-whatsapp{
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #121212;
-  color: #fff;
+  background-color: #ffffff;
+  color: #000;
   font-weight: 300;
   text-decoration: none;
   border-radius: 8px;
@@ -314,7 +320,7 @@ section.galeriamoto{
 }
 .itens-container{
     width: 100%;
-    background: #fff;
+    background: transparent;
     border-radius: 5px;
     box-shadow: #808080 0px 5px 15px;
 }
@@ -331,7 +337,6 @@ section.galeriamoto{
 
 .galeriamoto .itens-container .img-itens img{
     max-width: 480px;
-    filter: drop-shadow(2px 10px 10px #f5f5f5);
     border-radius: 30px;
     padding-right: 2px;
     padding-top: 10px;
@@ -342,6 +347,7 @@ section.galeriamoto{
 .galeriamoto .itens-container .img-itens img:hover{
     transition: all .5s ease-in-out;
     transform: scale(1.1);
+    filter: drop-shadow(2px 10px 10px #f5f5f5);
 }
 .galeriamoto .itens-container .txt-itens h3{
     font-size: 3rem;
@@ -349,12 +355,12 @@ section.galeriamoto{
     line-height: 40px;
     margin-bottom: 1.2rem;
     font-family: "Raleway", sans-serif;
-    color: #121212;
+    color: #ffffff;
     padding-right: 15px;
 }
 .galeriamoto .itens-container .txt-itens p{
     font-family: "Raleway", sans-serif;
-    color: #121212;
+    color: #ffffff;
 }
 .galeriamoto .itens-container .txt-itens h3 span{
     background: #f1f1f1;
