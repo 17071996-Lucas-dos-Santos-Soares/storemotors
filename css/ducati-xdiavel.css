@@ -11,19 +11,23 @@
     padding-top: 150px;
     text-align: center;
 }
-.banner p{
+.info p{
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 21px;
     letter-spacing: 0.6px;
     color: #fff;
 }
-.banner a{
+.info a{
     background: #f1f1f1;
     color: #121212;
     padding: 8px;
     border-radius: 30px;
     text-decoration: none;
+}
+.galeria{
+    width: 100%;
+    margin-top: 40px;
 }
 .galeria img{
     margin-left: 130px;
