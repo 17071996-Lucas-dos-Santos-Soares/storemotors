@@ -28,7 +28,7 @@ span i:hover{
 }
 ::-webkit-scrollbar-thumb{
 	width:10px;
-	background: #000000cc;
+	background: #d6d6d6cc;
 	border-radius:30px;
 }
 
@@ -330,23 +330,24 @@ section.galeriamoto{
     gap: 10%;
     margin-bottom: 60px;
     padding-left: 20px;
+    margin-top: 20px;
 }
 .items-container-1{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/moto-1.webp);
     background-repeat: no-repeat;
     background-position: 100%, 100%;
     background-size: 100%;
 }
 .items-container-2{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/moto-2.webp);
     background-repeat: no-repeat;
     background-position: 100%, 100%;
     background-size: 100%;
 }
 .items-container-3{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/moto-3.webp);
     background-repeat: no-repeat;
     background-size: 100%, 100%;
