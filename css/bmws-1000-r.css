@@ -12,13 +12,20 @@
     padding-top: 150px;
     text-align: center;
 }
+hr{
+    border: solid 2px #fff;
+    height: 2px;
+    width: 18%;
+    margin: 10px auto;
+    background: #fff;
+    opacity: 1;
+}
 .info p{
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 21px;
     letter-spacing: 0.6px;
     color: #fff;
-    padding-top: 40px;
 }
 .info a{
     background: #f1f1f1;
@@ -26,14 +33,16 @@
     padding: 8px;
     border-radius: 30px;
     text-decoration: none;
-    margin-bottom: 20px;
 }
 .galeria{
     width: 100%;
-    margin-top: 40px;
 }
 .galeria img{
     margin-left: 130px;
+}
+.txt {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .form label{
     color: #f1f1f1;
