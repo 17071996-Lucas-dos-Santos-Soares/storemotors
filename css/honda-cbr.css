@@ -4,7 +4,7 @@
     background-image: url(../images/banner-honda-cbr-.webp);
     background-size: 100%, 100%;
     background-repeat: no-repeat;
-    background-position: center, center;
+    background-position: 100%, 100%;
 }
 .banner h1{
     color: #fff;
@@ -34,11 +34,16 @@ hr{
     text-decoration: none;
     margin-bottom: 20px;
 }
-.galeria{
+section.galeria{
     width: 100%;
+    background-image: url(../images/fundo-showroom.webp);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: 100%, 100%;
 }
 .galeria img{
     margin-left: 130px;
+    border: solid 2px #f1f1f1;
 }
 .txt {
     padding-top: 50px;
