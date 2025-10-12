@@ -10,8 +10,9 @@ hr{
   margin-right: auto;
   margin-top: -10px;
   border: none;
-  height: 7px;
+  height: 2px;
   background-color: #ff0000;
+  opacity: 1;
 }
   span i {
     border: 1px solid #121212;
