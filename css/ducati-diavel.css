@@ -52,8 +52,8 @@ section.galeria{
 @media screen and (max-width: 878px) {
     .banner{
     width: 100%;
-    height: auto;
-    background-image: url(../images/ducati-xdiavel-banner.webp);
+    height: 350px;
+    background-image: url(../images/banner-ducati-diavel.webp);
     background-size: 100%, 120%;
     background-repeat: no-repeat;
     background-position: center, center;
@@ -67,6 +67,12 @@ section.galeria{
         text-align: center;
         margin-left: 80px;
         margin-bottom: 20px;
+    }
+    .info p{
+        margin-top: -65px;
+    }
+    .galeria {
+        padding-top: 110px;
     }
     .galeria img{
         width: 100px;
