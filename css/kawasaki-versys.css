@@ -26,6 +26,7 @@ hr{
     line-height: 21px;
     letter-spacing: 0.6px;
     color: #fff;
+    font-weight: 200;
 }
 .info a{
     background: #f1f1f1;
@@ -33,6 +34,7 @@ hr{
     padding: 8px;
     border-radius: 30px;
     text-decoration: none;
+    font-weight: 200;
 }
 section.galeria{
     width: 100%;

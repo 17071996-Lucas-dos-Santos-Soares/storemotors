@@ -15,8 +15,7 @@ hr{
   opacity: 1;
 }
   span i {
-    border: 1px solid #121212;
-    border-radius: 100px;
+    border-radius: 30px;
     padding: 10px;
     transition: all 0.3s ease-in-out;
 }
@@ -88,7 +87,7 @@ header .logo img {
     max-width: 80px;
     margin-top: -10px;
 }
-/* menu dinanmico */
+
 header .logo img.logo-preta {
     display: none;
 }
@@ -98,7 +97,10 @@ header.rolar {
     padding: 1.2rem 0px;
     filter: drop-shadow(0px 0px 8px #00000061);
 }
-
+header.rolar i:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
 header.rolar .menu-desktop nav ul li a {
     color: #000;
 }
@@ -139,6 +141,7 @@ header .menu-desktop nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 17px;
+    font-weight: 100;
 }
 
 header .menu-desktop nav a:hover {
@@ -257,22 +260,21 @@ section.hero-site {
 .hero-site .txt-hero h2{
     font-size: 3.5rem;
     line-height: 70px;
-    font-weight: 300;
+    font-weight: 100;
     margin-top: 15rem;
     font-family: "Barlow Condensed", sans-serif;
 }
 
 .hero-site .txt-hero h2 span{
     display: block;
-    font-weight: 700;
+    font-weight: 300;
     color: #fff;
-    -webkit-text-stroke: 1px #121212;
     font-family: "Barlow Condensed", sans-serif;
 }
 
 .hero-site .txt-hero p{
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
     margin: 20px 0px;
     font-family: "Raleway", sans-serif;
 }
@@ -286,6 +288,7 @@ section.hero-site {
     height: 60px;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 1.5rem;
+    font-weight: 300;
 }
 .hero-site button:hover{
   background: #f1f1f1;
@@ -375,12 +378,14 @@ section.galeriamoto{
     line-height: 40px;
     margin-bottom: 1.2rem;
     font-family: "Raleway", sans-serif;
-    color: #ffffff;
+    color: #fff;
     padding-right: 15px;
+    font-weight: 200;
 }
 .galeriamoto .itens-container .txt-itens p{
     font-family: "Raleway", sans-serif;
-    color: #ffffff;
+    color: #fff;
+    font-weight: 300;
 }
 .galeriamoto .itens-container .txt-itens h3 span{
     background: #000;
@@ -388,7 +393,7 @@ section.galeriamoto{
     color: #fff;
     padding: 8px;
     padding-right: 10px;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 section.contato{
@@ -494,21 +499,17 @@ section.sobre-nos::before{
     line-height: 50px;
 }
 
-.sobre-nos h3 span{
-    display: block;
-    font-weight: 700;
-}
-
 .sobre-nos p{
     font-family: "Raleway", sans-serif;
     margin: 20px 0px;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 200;
 }
 
 .sobre-nos button{
     width: 220px;
     height: 60px;
+    font-weight: 300;
 }
 
 section.como-funciona{
@@ -581,6 +582,7 @@ section.como-funciona{
 #showroom h3{
     color: #fafafa;
     font-size: 30px;
+    font-weight: 100;
 }
 .card-body{
     box-shadow: #808080 0px 5px 15px;
