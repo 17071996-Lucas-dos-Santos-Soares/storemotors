@@ -148,6 +148,10 @@
         padding-top: 45px;
         transition: all .3s ease-in-out;
     }
+    .forms{
+    background-image: url(../images/ducati-paginale-4.webp);
+    height: auto;
+    }
     .form {
         width: 100%;
         margin: 0 auto;
@@ -244,7 +248,7 @@
     }
     
     .form textarea {
-        width: 100%;
+        width: 80%;
         min-height: 15rem;
         resize: vertical;
     }
