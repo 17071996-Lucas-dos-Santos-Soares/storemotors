@@ -47,6 +47,18 @@
     }
     .btn-whatsapp{
         padding: 10px 15px;
+        margin-top: -10px;
+    }
+    .items-container-2{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .items-container-3{
+        background-image: linear-gradient(#00000080, #00000080), url(../images/moto-3.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height:auto;
     }
     .galeriamoto .itens-container .txt-itens h3{
         width: 100%;
@@ -55,10 +67,11 @@
     }
     .galeriamoto .itens-container{
         margin: 20px 0.2rem;
-        padding-bottom: 20px;
+        padding-bottom: 12px;
     }
     .galeriamoto .itens-container .img-itens img{
         width: 100%;
+        height:100%;
         margin-left: -10px;
     }
     .galeria img{
