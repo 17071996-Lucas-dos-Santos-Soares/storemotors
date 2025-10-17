@@ -587,6 +587,10 @@ section.como-funciona{
 .card-body{
     box-shadow: #808080 0px 5px 15px;
 }
+.card-title{
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+}
 .card-custom img{
     width: 100%;
     border-radius: 10px;

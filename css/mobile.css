@@ -161,6 +161,10 @@
         padding-top: 45px;
         transition: all .3s ease-in-out;
     }
+    .card-title{
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+}
     .forms{
     background-image: url(../images/ducati-paginale-4.webp);
     height: auto;
