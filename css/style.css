@@ -312,7 +312,6 @@ section.hero-site {
   background-color: #1ebe57;
   transform: scale(1.05);
   color: #fff;
-
 }
 section.galeriamoto{
     width: 100%;
@@ -337,32 +336,34 @@ section.galeriamoto{
     margin-top: 20px;
 }
 .items-container-1{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background: linear-gradient(#000000b3, #000000b3),
     url(../images/moto-1.webp);
     background-repeat: no-repeat;
     background-position: 100%, 100%;
     background-size: 100%;
 }
 .items-container-2{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background: linear-gradient(#000000b3, #000000b3),
     url(../images/moto-2.webp);
     background-repeat: no-repeat;
     background-position: 100%, 100%;
     background-size: 100%;
 }
 .items-container-3{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background: linear-gradient(#000000b3, #000000b3),
     url(../images/moto-3.webp);
     background-repeat: no-repeat;
     background-size: 100%, 100%;
     background-size: 100%;
 }
 .galeriamoto .itens-container .img-itens img{
-    max-width: 480px;
-    border-radius: 30px;
-    padding-right: 2px;
+    max-width: 420px;
+    max-height: 420px;
+    border-radius: 50%;
+    padding-right: 15px;
     padding-top: 10px;
     transition: all .3s ease-in-out;
+    object-fit: cover;
 }
 .espaco img{
     margin-left: 30px;
@@ -388,14 +389,14 @@ section.galeriamoto{
     font-weight: 300;
 }
 .galeriamoto .itens-container .txt-itens h3 span{
-    background: #000;
+    background: rgba(0, 0, 0, 0.7);
     text-align: center;
     color: #fff;
     padding: 8px;
     padding-right: 10px;
     font-weight: 100;
+    border-radius: 5px;
 }
-
 section.contato{
     background: #fff;
     padding: 80px 0px;
