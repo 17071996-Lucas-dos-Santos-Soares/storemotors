@@ -89,6 +89,7 @@ header .logo img {
 }
 
 header .logo img.logo-preta {
+    max-width: 60px;
     display: none;
 }
 
@@ -102,10 +103,12 @@ header.rolar i:hover{
     color: #fff;
 }
 header.rolar .menu-desktop nav ul li a {
+    font-size: 13px;
     color: #000;
 }
 
 header.rolar .btn-contato button{
+    font-size: 13px;
     border: solid 1px #000;
     color: #000;
     border-radius: 30px;
