@@ -9,7 +9,7 @@ document.addEventListener('scroll', ()=>{
 })
 
 const element = document.querySelector("#text")
-const text = "Viva a liberdade"
+const text = "Viva a liberdade!"
 const interval = 200;
 
 function showTxt(element, text, interval) {
