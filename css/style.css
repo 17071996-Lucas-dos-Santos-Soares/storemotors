@@ -28,10 +28,14 @@ span i:hover{
 }
 ::-webkit-scrollbar-thumb{
 	width:10px;
-	background: #d6d6d6cc;
+	background: #f5f5f5;
 	border-radius:30px;
+    transition: all 0.2s ease-in-out;
 }
-
+::-webkit-scrollbar-thumb:hover{
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+}
 ::selection {
     background: #121212;
     color: #f1f1f1;
