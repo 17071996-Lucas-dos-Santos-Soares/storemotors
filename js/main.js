@@ -68,3 +68,6 @@ revelar.reveal('.img3', {
     delay: 1100,
     origin: 'right'
 })
+const lightbox = GLightbox({
+        selector: '.glightbox'
+    });
