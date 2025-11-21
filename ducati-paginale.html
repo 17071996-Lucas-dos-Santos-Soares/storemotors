@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/mobile.css" media="screen"/>
     <link rel="stylesheet" href="css/ducati-paginale.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -80,16 +81,29 @@
     </div>
 </section>
 <section class="galeria" id="galeria">
-<div class="container-fluid">
-    <div class="row">
-    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-12 align-items-center justify-content-center">
-    <img class="img-fluid" src="images/ducati-paginale-4.webp" alt="foto-1" title="ducati-paginale">
-    <img class="img-fluid" src="images/ducati-paginale-5.webp" alt="foto-2" title="ducati-paginale">
-    <img class="img-fluid" src="images/ducati-paginale-6.webp" alt="foto-3" title="ducati-paginale">
-    <img class="img-fluid" src="images/ducati-paginale-5.webp" alt="foto-4" title="ducati-paginale">
+<div class="container-fluid py-5">
+    <div class="row g-4">
+        <div class="col-md-3 col-6">
+            <a href="images/ducati-panigale-1.jpg" class="glightbox img-fluid" data-gallery="galeria">
+                <img src="images/ducati-panigale-1.jpg" class="img-fluid rounded shadow galeria-item" alt="moto" title="ducati-paginale">
+            </a>
+        </div>
+        <div class="col-md-3 col-6">
+            <a href="images/ducati-panigale-2.jpg" class="glightbox" data-gallery="galeria">
+                <img src="images/ducati-panigale-2.jpg" class="img-fluid rounded shadow galeria-item" alt="moto" title="ducati-paginale">
+            </a>
+        </div>
+        <div class="col-md-3 col-6">
+            <a href="images/ducati-paginale-4.webp" class="glightbox img-fluid" data-gallery="galeria">
+                <img src="images/ducati-paginale-4.webp" class="img-fluid rounded shadow galeria-item" alt="moto" title="honda-cbr">
+            </a>
+        </div>
+        <div class="col-md-3 col-6">
+            <a href="images/ducati-paginale-5.webp" class="glightbox img-fluid" data-gallery="galeria">
+                <img src="images/ducati-paginale-5.webp" class="img-fluid rounded shadow galeria-item" alt="moto" title="honda-cbr">
+            </a>
+        </div>
     </div>
-    </div>
-</div>
 </section>
 <section class="forms">
 <form action="https://formsubmit.co/lucasstarttech@gmail.com" method="POST" class="form" id="form">
@@ -116,4 +130,5 @@
 </div>
 </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 </html>
