@@ -36,15 +36,19 @@ hr{
     margin-bottom: 20px;
     font-weight: 200;
 }
-section.galeria{
+.galeria-items{
     width: 100%;
     height: 28vh;
+    padding-left: 20px;
     background-image: url(../images/fundo-preto-slide.png);
     background-repeat: no-repeat;
-    background-position: 100%, 104%;
-    background-size: 100%, 100%;
+    background-size: cover;
+    background-position: right, center;
 }
-.galeria img{
+.galeria-item img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
     margin-left: 130px;
     border: solid 4px #f1f1f1;
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
@@ -78,10 +82,10 @@ section.galeria{
     .info p{
         margin-top: -65px;
     }
-    .galeria {
+    .galeria-2 {
         padding-top: 110px;
     }
-    .galeria img{
+    .galeria-2 img{
         width: 100px;
         height: 100px;
         padding-top: 0px;
