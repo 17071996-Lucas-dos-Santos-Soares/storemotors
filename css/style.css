@@ -516,9 +516,10 @@ section.sobre-nos::before{
 
 .sobre-nos p{
     font-family: "Raleway", sans-serif;
-    margin: 20px 0px;
+    margin: 20px;
     font-size: 1.2rem;
     font-weight: 200;
+    text-align: left;
 }
 
 .sobre-nos button{
