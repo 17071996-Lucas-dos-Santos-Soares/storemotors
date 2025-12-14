@@ -57,6 +57,8 @@ html,body {
 }
 
 header .btn-contato button, .hero-site button, .sobre-nos button{
+    width: 220px;
+    height: 60px;
     font-size: 1rem;
     background: transparent;
     border: solid 1px #fff;
@@ -337,6 +339,14 @@ section.galeriamoto{
     border-radius: 5px;
     box-shadow: #808080 0px 5px 15px;
 }
+.hr-vertical{
+    width: 80%;
+    color: #ffffffe6;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -20px;
+}
 .galeriamoto .itens-container{
     width: 100%;
     display: flex;
@@ -502,7 +512,6 @@ section.sobre-nos::before{
     background: rgba(0, 0, 0, 0.3);
     position: absolute;
     z-index: -1;
-
 }
 .sobre-nos > .interface{
     position: relative;
@@ -618,7 +627,8 @@ section.como-funciona{
     font-style: italic;
 }
 .card-body{
-    box-shadow: #808080 0px 5px 15px;
+    box-shadow: #808080 0px 2px 80px;
+    border-radius: 10px;
 }
 .card-title{
     font-weight: 300;
