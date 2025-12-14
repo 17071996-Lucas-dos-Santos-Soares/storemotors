@@ -328,6 +328,7 @@ section.hero-site {
   background-color: #1ebe57;
   transform: scale(1.05);
   color: #fff;
+  box-shadow: #808080 0px 5px 15px;
 }
 section.galeriamoto{
     width: 100%;
