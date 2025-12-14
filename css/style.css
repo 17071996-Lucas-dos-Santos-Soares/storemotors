@@ -63,7 +63,6 @@ header .btn-contato button, .hero-site button, .sobre-nos button{
     color: #fff;
     cursor: pointer;
     border-radius: 30px;
-    padding: 0 3px;
 }
 
 header .btn-contato button:hover,.sobre-nos button:hover{
@@ -320,6 +319,8 @@ section.hero-site {
   border-radius: 8px;
   transition: all 0.3s ease;
   border-radius: 30px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
 }
 .btn-whatsapp:hover{
   background-color: #1ebe57;
@@ -526,10 +527,12 @@ section.sobre-nos::before{
     text-align: left;
 }
 
-.sobre-nos button{
+.sobre-nos button a{
     width: 220px;
     height: 60px;
     font-weight: 300;
+    font-size: 18px;
+    font-family: "Barlow Condensed", sans-serif;
 }
 
 section.como-funciona{
@@ -603,6 +606,7 @@ section.como-funciona{
     color: #fafafa;
     font-size: 30px;
     font-weight: 100;
+    font-family: "Raleway", sans-serif;
 }
 #showroom .frase{
     font-family: "Raleway", sans-serif;
@@ -628,6 +632,8 @@ section.como-funciona{
     background: #121212;
     color: #f5f5f5;
     border-radius: 30px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 18px;
     transition: all 0.2s ease-in-out;
 }
 .card-custom a:hover{
@@ -696,6 +702,8 @@ section.galeria{
 .form label, .form.input, .form textarea, .form button{
     display: block;
     width: 100%;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 18px;
     margin: 0 auto;
 }
 
