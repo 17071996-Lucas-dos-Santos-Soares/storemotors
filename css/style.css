@@ -5,7 +5,7 @@
     font-family: 'Barlow Consend', sans-serif;
 }
 hr{
-  width: 240px;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: -10px;
@@ -347,6 +347,7 @@ section.galeriamoto{
     font-size: 30px;
     text-align: center;
     margin-top: -20px;
+    text-shadow: 1px 1px 1px #fff;
 }
 .galeriamoto .itens-container{
     width: 100%;
@@ -387,13 +388,16 @@ section.galeriamoto{
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
 }
 .galeriamoto .itens-container .img-itens img{
-    max-width: 420px;
-    max-height: 420px;
     border-radius: 50%;
     padding-right: 15px;
     padding-top: 10px;
     transition: all .3s ease-in-out;
     object-fit: cover;
+    background: #ffffffe6;
+}
+.img-itens img{
+    max-width: 300px;
+    max-height: 300px;
 }
 .espaco img{
     margin-left: 30px;
@@ -414,6 +418,7 @@ section.galeriamoto{
     font-weight: 200;
 }
 .galeriamoto .itens-container .txt-itens p{
+    max-width: 50%;
     font-family: "Raleway", sans-serif;
     color: #fff;
     font-weight: 300;
@@ -531,7 +536,7 @@ section.sobre-nos::before{
 
 .sobre-nos p{
     font-family: "Raleway", sans-serif;
-    margin: 20px;
+    margin: 30px;
     font-size: 1.2rem;
     font-weight: 200;
     text-align: left;
@@ -646,6 +651,9 @@ section.como-funciona{
     text-align: center;
     padding-left: 20px;
 }
+.price{
+    font-size: 18px;
+}
 .card-custom a{
     background: #121212;
     color: #f5f5f5;
@@ -729,6 +737,7 @@ section.galeria{
     color: #fff;
     line-height: 1;
     margin-bottom: 0.5rem;
+    text-align: left;
 }
 
 .form input, .form textarea{
