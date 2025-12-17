@@ -633,8 +633,14 @@ section.como-funciona{
     font-style: italic;
 }
 .card-body{
-    box-shadow: #808080 0px 2px 80px;
+    box-shadow: #808080 0px 2px 10px;
     border-radius: 10px;
+    transition: box-shadow 0.2s ease-out, transform 0.2s ease-out;
+}
+.card-body:hover{
+  box-shadow: #808080 0px 6px 20px;
+  transform: translateY(-4px);
+  transition: box-shadow 0.2s ease-out, transform 0.2s ease-out;
 }
 .card-title{
     font-weight: 300;
