@@ -182,7 +182,6 @@ hr{
     .frase p{
         font-size: 1rem;
         text-align: center;
-        /* aqui */
     }
     .frase a{
         color: #000;
@@ -197,9 +196,33 @@ hr{
     .form textarea{
         width: 80%;
     }
-
+    .about-area{
+        width: 90%;
+        height: auto;
+    }
+    .card p{
+        margin-left: -34px;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .galeria-motos img{
+        width: 50%;
+        height: auto;
+        margin-top: 70px;
+    }
      ::placeholder{
         text-align: left;
+    }
+    .form label{
+        text-align: left;
+    }
+    .form input{
+        width: 87%;
+        margin-left: -20px;
+    }
+    .form textarea{
+        width: 100%;
     }
     .form button{
         width: 40%;
