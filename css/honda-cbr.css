@@ -5,6 +5,7 @@
     background-size: 100%, 100%;
     background-repeat: no-repeat;
     background-position: 100%, 100%;
+    margin-top: -50px;
 }
 .banner h1{
     color: #fff;
@@ -26,12 +27,12 @@ hr{
     padding-bottom: 50px;
 }
 .frase p{
-    font-size: 2.5rem;
-    line-height: 70px;
+    font-size: 2rem;
+    line-height: 40px;
     font-weight: 100;
     font-family: "Barlow Condensed", sans-serif;
     letter-spacing: 2px;
-    margin-top: -50px;
+    margin-top: -40px;
 }
 .frase a{
     width: 220px;
@@ -46,6 +47,7 @@ hr{
     text-decoration: none;
     color: #fff;
     text-transform: capitalize;
+    margin-top: 20px;
 }
 .frase a:hover{
   background: #f1f1f1;
@@ -54,8 +56,8 @@ hr{
   color: #000;
 }
 .about-area{
-    width: 80%;
-    height: 400px;
+    width: 90%;
+    height: 650px;
     background: linear-gradient(#000000cc, #000000cc),
     url(../images/fundo-honda-cbr.webp);
     background-repeat: no-repeat;
@@ -65,6 +67,16 @@ hr{
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
     margin: 40px auto;
     border-radius: 10px;
+}
+.about-area p{
+    text-align: left;
+    color: #f1f1f1;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.6px;
+    line-height: 21px;
+    padding-top: 20px;
+    width: 100%;
 }
 .about-area a{
     width: 220px;
@@ -87,14 +99,6 @@ hr{
   font-weight: 200;
   padding-top: 20px;
 }
-.about-text{
-    color: #f1f1f1;
-    font-family: "Raleway", sans-serif;
-    font-weight: 200;
-    letter-spacing: 0.6px;
-    line-height: 21px;
-    padding-top: 20px;
-}
 .img-fluid {
   width: 50%;
   border-radius: 10px;
@@ -102,6 +106,7 @@ hr{
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease-in-out;
+  padding-top: 40px;
 }
 .img-fluid:hover{
  filter: drop-shadow(2px 10px 10px #ffffffe6);
@@ -165,6 +170,7 @@ hr{
     .frase p{
         font-size: 1rem;
         text-align: center;
+        /* aqui */
     }
     .frase a{
         color: #000;
