@@ -656,8 +656,10 @@ section.como-funciona{
     color: #000000e6;
     text-align: center;
     padding-left: 20px;
+    line-height: 2;
 }
 .price{
+    font-weight: 300;
     font-size: 18px;
 }
 .card-custom a{

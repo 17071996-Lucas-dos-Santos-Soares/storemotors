@@ -153,7 +153,12 @@
         padding-bottom: 150px;
         gap: 10px;
     }
-
+    .card-body{
+    height: auto;
+}
+.card p{
+    margin-left: -34px;
+}
     .galeria img {
         width: 150px;
         height: 150px;
