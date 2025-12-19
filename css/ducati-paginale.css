@@ -129,8 +129,8 @@ hr{
     padding-bottom: 20px;
 }
 .card p{
-    font-size: 16px;
-    line-height: 2;
+    font-size: 0.8rem;
+    line-height: 1.6;
     letter-spacing: 0.6px;
     margin-left: -20px;
 }
@@ -139,8 +139,9 @@ hr{
     height: 480px;
     background-image: url(../images/fundo-preto-slide.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 100%, 100%;
     background-size: cover;
+    background-attachment: fixed;
 }
 .galeria-motos img{
     width: 50%;
