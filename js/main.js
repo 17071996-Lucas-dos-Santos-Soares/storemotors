@@ -23,7 +23,7 @@ function showTxt(element, text, interval) {
     console.table(char)
 }
 showTxt(element, text, interval)
-window.revelar = ScrollReveal({reset:true})
+window.revelar = ScrollReveal({reset:false})
 revelar.reveal('.txt1', {
     duration: 1500,
     distance: '40px',
