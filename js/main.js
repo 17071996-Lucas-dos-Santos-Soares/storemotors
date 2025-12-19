@@ -1,80 +1,53 @@
-let navBar = document.querySelector('#header')
-document.addEventListener('scroll', ()=>{
-    let scrollTop = window.scrollY
-    if(scrollTop > 0) {
-        navBar.classList.add('rolar')
-    } else {
-        navBar.classList.remove('rolar')
-    }
-})
-const element = document.querySelector("#text")
-const text = "Design que se impõe!"
+const navBar = document.querySelector('#header');
+document.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  navBar.classList.toggle('rolar', scrollTop > 0);
+});
+const element = document.querySelector("#text");
+const text = "Design que se impõe!";
 const interval = 200;
-
 function showTxt(element, text, interval) {
-    const char = text.split("").reverse()
-    const typer = setInterval(() => {
-        if(!char.length) {
-            return clearInterval(typer)
-        }
-    const netxtL = char.pop()
-    element.innerHTML += netxtL      
-    }, interval)
-    console.table(char)
+  const char = text.split("").reverse();
+  const typer = setInterval(() => {
+    if (!char.length) {
+      clearInterval(typer);
+      return;
+    }
+    element.innerHTML += char.pop();
+  }, interval);
 }
-showTxt(element, text, interval)
-window.revelar = ScrollReveal({reset:false})
-revelar.reveal('.txt1', {
-    duration: 1500,
-    distance: '40px',
-    delay: 500,
-    origin: 'left'
-})
-const revelarHero = ScrollReveal({
-    reset: false
+showTxt(element, text, interval);
+const sr = ScrollReveal({
+  reset: false,
+  duration: 900,
+  distance: '50px',
+  delay: 200,
+  easing: 'cubic-bezier(0.4, 0, 0.2, 1)',
+  opacity: 0
 });
-
-revelarHero.reveal('.hero-anim', {
-    duration: 2000,
-    distance: '90px',
-    delay: 500,
-    origin: 'left'
+sr.reveal('.hero-anim', {
+  delay: 500,
+  origin: 'left'
 });
-
-revelar.reveal('.img1', {
-    duration: 1500,
-    distance: '40px',
-    delay: 700,
-    origin: 'right'
-})
-
-revelar.reveal('.img2', {
-    duration: 1500,
-    distance: '40px',
-    delay: 800,
-    origin: 'left'
-})
-
-revelar.reveal('.txt2', {
-    duration: 1500,
-    distance: '40px',
-    delay: 900,
-    origin: 'right'
-})
-
-revelar.reveal('.txt3', {
-    duration: 1500,
-    distance: '40px',
-    delay: 1000,
-    origin: 'left'
-})
-
-revelar.reveal('.img3', {
-    duration: 1500,
-    distance: '40px',
-    delay: 1100,
-    origin: 'right'
-})
+sr.reveal('.txt1', {
+  delay: 500,
+  origin: 'left'
+});
+sr.reveal('.img1', {
+  origin: 'right'
+});
+sr.reveal('.img2', {
+  origin: 'left'
+});
+sr.reveal('.txt2', {
+  origin: 'right'
+});
+sr.reveal('.txt3', {
+  origin: 'left'
+});
+sr.reveal('.img3', {
+  origin: 'right'
+});
 const lightbox = GLightbox({
-        selector: '.glightbox'
-    });
+  selector: '.glightbox'
+});
