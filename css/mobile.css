@@ -62,9 +62,13 @@
         height:auto;
     }
     .galeriamoto .itens-container .txt-itens h3{
-        width: 100%;
-        padding-top: 20px;
-        font-size: 18px;
+        width: 110%;
+    }
+    .galeriamoto .itens-container .txt-itens p{
+        width: 110%;
+    }
+    .btn-whatsapp{
+        font-size: 16px;
     }
     .galeriamoto .itens-container{
         margin: 20px 0.2rem;
