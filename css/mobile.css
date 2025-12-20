@@ -63,6 +63,8 @@
     }
     .galeriamoto .itens-container .txt-itens h3{
         width: 110%;
+        padding-top: 20px;
+        font-size: 18px;
     }
     .galeriamoto .itens-container .txt-itens p{
         width: 110%;
