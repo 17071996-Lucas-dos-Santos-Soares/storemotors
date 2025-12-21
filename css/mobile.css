@@ -65,18 +65,33 @@
         width: 100%;
         height: auto;
         margin: 0 auto;
+        padding: 5px;
+    }
+    .galeriamoto .itens-container {
+        margin: 20px 0.2rem;
+        padding-bottom: 12px;
+        padding-left: 50px;
+        padding-right: 45px;
+    }
+    .items-container-1{
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 3px 13px;
+    }
+    .items-container-2{
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 3px 13px;
+    }
+    .items-container-3{
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 3px 13px;
     }
     .galeriamoto .itens-container .txt-itens h3{
         width: 100%;
         padding-top: 20px;
         font-size: 1rem;
     }
-    .galeriamoto .itens-container .txt-itens p{
-        /* width: 120%; */
+    .galeriamoto .itens-container .txt-itens p {
+        max-width: 250px;
         height: auto;
         font-size: 18px;
-    }
-    .btn-whatsapp{
+    }    .btn-whatsapp{
         font-size: 16px;
     }
     .galeriamoto .itens-container{
@@ -86,7 +101,7 @@
     .galeriamoto .itens-container .img-itens img{
         width: 70px;
         height: 70px;
-        margin-left: -50px;
+        margin-left: -40px;
     }
     .galeria img{
         width: 100px;
