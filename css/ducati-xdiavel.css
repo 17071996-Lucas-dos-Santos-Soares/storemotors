@@ -125,17 +125,18 @@ hr{
     font-weight: 200;
 }
 .card-body{
-    height: 500px;
-    padding-bottom: 20px;
+    height: 520px;
+}
+.card-title{
+    font-weight: 500;
 }
 .card p{
-    .card p{
     font-size: 0.8rem;
     line-height: 1.6;
     letter-spacing: 0.6px;
     margin-left: -20px;
 }
-}
+
 .galeria-motos{
     width: 100%;
     height: 480px;
@@ -178,7 +179,7 @@ hr{
     height: 100%;
     padding: 40px;
     background: linear-gradient(#000000cc, #000000cc),
-    url(../images/ducati-xdiavel-3.webp);
+    url(../images/ducati-xdiavel-1\ -mobile.png);
     background-size: 131%, 146%;
     background-repeat: no-repeat;
     background-position: center, center;
@@ -221,9 +222,11 @@ hr{
         height: auto;
     }
     .card p{
-        font-size: 0.8rem;
+        margin-left: -34px;
+        font-size: 16px;
         text-align: center;
         margin-top: 10px;
+        line-height: 1.4;
     }
     .galeria-motos img{
         width: 50%;
