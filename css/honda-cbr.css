@@ -135,6 +135,12 @@ hr{
 .letter-spacing {
   letter-spacing: 1px;
 }
+.card p.text-secondary{
+    width: 90%;
+    text-align: left;
+    padding-bottom: 20px;
+
+}
 .card-btn a{
     width: 220px;
     height: 60px;
