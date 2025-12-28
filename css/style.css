@@ -246,7 +246,6 @@ header .menu-mobile.abrir{
     height: 80vh;
     border-radius: 10px;
 }
-
 /* fim menu mobile */
 section.hero-site {
     width: 100%;
@@ -548,6 +547,7 @@ section.sobre-nos::before{
     font-weight: 300;
     font-size: 18px;
     font-family: "Barlow Condensed", sans-serif;
+    padding: 10px;
 }
 
 section.como-funciona{

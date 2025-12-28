@@ -1,26 +1,21 @@
 .banner{
     width: 100%;
     height: 98vh;
-    background: linear-gradient(#000000cc, #000000cc),
-    url(../images/ducat-diavel-1.webp);
+    background: linear-gradient(#00000080, #00000080),
+    url(../images/banner-ducati-xdiavel-pc.png);
     background-size: 100%, 100%;
     background-repeat: no-repeat;
     background-position: 100%, 100%;
     margin-top: -50px;
 }
 .banner h1{
-    color: #fff;
+    color: #c2c3c2;
     padding-top: 180px;
     text-align: center;
     font-family: "Raleway", sans-serif;
 }
-hr{
-    border: solid 2px #fff;
-    height: 2px;
-    width: 18%;
-    margin: 10px auto;
-    background: #fff;
-    opacity: 1;
+.banner span{
+    color: #d41b24;
 }
 .frase{
     width: 100%;
@@ -33,7 +28,6 @@ hr{
     font-weight: 100;
     font-family: "Barlow Condensed", sans-serif;
     letter-spacing: 2px;
-    margin-top: -40px;
 }
 .frase a{
     width: 220px;
@@ -56,42 +50,50 @@ hr{
   box-shadow: 0 6px 12px #00000040;
   color: #000;
 }
-.about-area{
-    width: 90%;
-    height: 650px;
-    background: linear-gradient(#000000cc, #000000cc),
-    url(../images/ducati-xdiavel-2.webp);
-    background-repeat: no-repeat;
-    background-position: 100%, 100%;
-    background-size: 100%;
-    border: solid 2px #f1f1f1;
-    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
-    margin: 40px auto;
-    border-radius: 10px;
+.section.sobre-ducati-xdiavel{
+    background-color: red;
 }
-.about-area p{
-    text-align: left;
-    color: #f1f1f1;
-    font-family: "Raleway", sans-serif;
-    font-weight: 200;
-    letter-spacing: 0.6px;
-    line-height: 21px;
-    padding-top: 20px;
+section.sobre-ducati-xdiavel::before{
+    content: "";
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: -1;
 }
-.about-area a{
+.sobre-ducati-xdiavel > .interface{
+    position: relative;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sobre-ducati-xdiavel h3{
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 50px;
+    color: #fff;
+}
+
+.sobre-ducati-xdiavel p{
+    font-family: "Raleway", sans-serif;
+    margin: 30px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-align: left;
+}
+
+.sobre-nos button a{
     width: 220px;
     height: 60px;
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 1.5rem;
     font-weight: 300;
-    transition: all 0.2s ease-in-out;
-    border: solid 1px #ffffffe6;
-    border-radius: 30px;
-    padding: 8px;
-    text-decoration: none;
-    color: #fff;
-    text-transform: capitalize;
+    font-size: 18px;
+    font-family: "Barlow Condensed", sans-serif;
+    padding: 10px;
 }
 .main-title{
   font-size: 30px;
@@ -127,9 +129,11 @@ hr{
 .ficha-tecnica img{
     width: 300px;
     padding-top: 20px;
-    border-radius: 10%;
     margin: 0 auto;
+    padding-bottom: 20px;
+    transition: all 0.2s ease-in-out;
 }
+
 .card-body{
     height: 480px;
 }
@@ -164,6 +168,9 @@ hr{
 
 .letter-spacing {
   letter-spacing: 1px;
+}
+.card p{
+    text-align: left;
 }
 .card-btn a{
     width: 220px;
@@ -229,18 +236,16 @@ hr{
 @media screen and (max-width: 878px) {
     .banner{
     width: 100%;
-    height: 100%;
+    height: 98vh;
     padding: 40px;
-    background: linear-gradient(#000000cc, #000000cc),
-    url(../images/ducati-xdiavel-1\ -mobile.png);
+    background: linear-gradient(#00000080, #00000080),url(../images/banner-ducati-xdiavel-mobile.png);
     background-size: 131%, 146%;
     background-repeat: no-repeat;
     background-position: center, center;
     margin-top: -80px;
     }
     .banner h1{
-        font-size: 16px;
-        margin-top: -80px;
+        font-size: 1.5rem;
     }
     .banner a{
         background: #f5f5f5;
@@ -250,7 +255,7 @@ hr{
         margin-bottom: 20px;
     }
     .frase p{
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-align: center;
     }
     .frase a{
@@ -266,20 +271,14 @@ hr{
     .form textarea{
         width: 80%;
     }
-    .about-area{
-        width: 90%;
-        height: auto;
-        padding-bottom: 50px;
-    }
+
     .card-body{
         height: auto;
     }
     .card p{
-        margin-left: -34px;
-        font-size: 16px;
-        text-align: center;
-        margin-top: 10px;
-        line-height: 1.4;
+        font-size: 14px;
+        text-align: left;
+        margin-left: -28px;
     }
     .tech-card {
   transition: all 0.3s ease;
