@@ -131,12 +131,12 @@ hr{
   transition: all 0.3s ease;
 }
 .tech-card img{
-    width: 280px;
-    background: red;
+    width: 150px;
 }
 .text-secondary p{
     font-family: "Barlow Condensed", sans-serif;
     font-size: 16px;
+    line-height: 1.7;
     letter-spacing: 2;
     color: #ffffffec;
 }
