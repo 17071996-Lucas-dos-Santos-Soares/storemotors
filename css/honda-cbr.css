@@ -197,6 +197,7 @@ hr{
     border-radius: 10px;
     border: solid 2px #f1f1f1;
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    margin: 0 auto;
 }
 .galeria-btn a{
     width: 220px;
