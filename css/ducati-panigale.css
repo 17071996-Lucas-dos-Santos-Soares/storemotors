@@ -243,7 +243,7 @@ hr{
     background-attachment: local;
     }
     .banner h1{
-        padding-top: 80px;
+        padding-top: 180px;
         font-size: 1.5rem;
     }
     .banner a{
@@ -265,7 +265,6 @@ hr{
         font-size: 1.8rem;
         text-align: center;
         margin-left: -23px;
-        padding-top: 320px;
     }
     .frase a{
         color: #000;
@@ -317,14 +316,14 @@ hr{
         text-align: left;
     }
     .form label{
-        text-align: left;
+        text-align: center;
     }
     .form input{
         width: 87%;
-        margin-left: -20px;
+        margin-left: 40px;
     }
     .form textarea{
-        width: 100%;
+        width: 90%;
     }
     .form button{
         width: 40%;
