@@ -6,7 +6,7 @@
 .banner{
     width: 100%;
     height: 98vh;
-    background-image:linear-gradient(#00000080,#00000080) ,url(../images/banner-honda-pc.png);
+    background-image:linear-gradient(#00000080,#00000080) ,url(../images/banner-kawaskaki-ninja-pc.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center right;
@@ -16,10 +16,10 @@
     color: #c2c3c2;
     padding-top: 180px;
     text-align: center;
-    font-family: "Raleway", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
 }
 .banner span{
-    color: #d41b24;
+    color: #6df954;
 }
 hr{
     border: solid 2px #fff;
@@ -65,7 +65,7 @@ hr{
 .sobre-honda{
     width: 100%;
     height: 450px;
-    background-image:linear-gradient(#000000b3, #000000b3), url(../images/honda-cbr-motor.webp);
+    background-image:linear-gradient(#000000b3, #000000b3), url(../images/kawasaki-versys-1.webp);
     background-position: 100%, 100%;
     background-size: 100%, 104%;
     background-repeat: no-repeat;
@@ -197,6 +197,7 @@ hr{
     border-radius: 10px;
     border: solid 2px #f1f1f1;
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    margin: 0 auto;
 }
 .galeria-btn a{
     width: 220px;
@@ -224,7 +225,7 @@ hr{
     width: 100%;
     height: 98vh;
     padding: 40px;
-    background-image:linear-gradient(#00000080,#00000080) ,url(../images/banner-honda-mobile.png);
+    background-image:linear-gradient(#00000080,#00000080) ,url(../images/banner-kawaskaki-ninja-mobile.webp);
     background-size: 131%, 146%;
     background-repeat: no-repeat;
     background-position: center, center;
@@ -248,7 +249,7 @@ hr{
         background-position: center;
     }
     .frase p{
-        margin-top: 150px;
+        /* margin-top: 150px; */
         font-size: 1.8rem;
         text-align: center;
     }
