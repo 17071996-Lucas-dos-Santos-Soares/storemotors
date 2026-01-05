@@ -277,6 +277,10 @@ hr{
         margin-left: -37px;
         margin-right: 5px;
     }
+    .tech-card img{
+    width: 150px;
+    border-radius: 20px;
+}
     .galeria-motos img{
         width: 50%;
         height: auto;

@@ -134,9 +134,6 @@ hr{
     height: 300px;
   transition: all 0.3s ease;
 }
-.tech-card img{
-    width: 150px;
-}
 .text-secondary p{
     font-family: "Barlow Condensed", sans-serif;
     font-size: 16px;
@@ -305,7 +302,6 @@ hr{
     }
     .tech-card img {
     width: 150px;
-    margin-left: 50px;
 }
     .galeria-motos img{
         width: 50%;
