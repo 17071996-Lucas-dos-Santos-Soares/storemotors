@@ -60,5 +60,8 @@ footer .top-footer button:hover {
 }
 
 @media screen and(max-width:878px) {
-    
+    .form label{
+    text-align: center;
+    color: #fff;
+} 
 }

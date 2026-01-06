@@ -704,6 +704,18 @@ section.galeria{
     transform: scale(1.1);
     border-radius: 30px;
 }
+.adress{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #121212;
+}
+.adress h3{
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Raleway", sans-serif;
+}
 .forms{
     overflow: hidden;
     width: 100%;
