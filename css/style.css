@@ -643,7 +643,8 @@ section.como-funciona{
   transition: box-shadow 0.2s ease-out, transform 0.2s ease-out;
 }
 .card-title{
-    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: 600;
     font-family: "Raleway", sans-serif;
 }
 .card-custom img{
@@ -652,15 +653,17 @@ section.como-funciona{
     object-fit: cover;
 }
 .card p{
-    width: 420px;
+    width: 100%;
     color: #000000e6;
     text-align: center;
-    padding-left: 20px;
-    line-height: 2;
+    padding: 0 20px;
+    line-height: 1.5;
+    font-weight: 400;
 }
-.price{
-    font-weight: 300;
-    font-size: 18px;
+.price span{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 10px;
 }
 .card-custom a{
     background: #121212;
@@ -668,6 +671,7 @@ section.como-funciona{
     border-radius: 30px;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 18px;
+    text-transform: uppercase;
     transition: all 0.2s ease-in-out;
 }
 .card-custom a:hover{
