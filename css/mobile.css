@@ -185,7 +185,8 @@
     height: auto;
 }
 .card p{
-    margin-left: -34px;
+    width: 364px;
+    text-align: center;
 }
     .galeria img {
         width: 150px;
@@ -198,6 +199,10 @@
     .card-title{
     font-weight: 300;
     font-family: "Raleway", sans-serif;
+}
+.contato .txt-contato p{
+    text-align: center;
+    width: 340px;
 }
     .forms{
     background-image: url(../images/ducati-paginale-4.webp);
