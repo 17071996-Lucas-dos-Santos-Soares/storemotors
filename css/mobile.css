@@ -330,3 +330,24 @@
     footer .footer-bottom p {
         font-size: 1rem;
     }
+    /* configurações para motos mobile */
+    .card p{
+        font-size: 14px;
+        text-align: center;
+    }
+    small.text-secondary{
+        text-align: left;
+    }
+    .ficha-tecnica h3{
+        text-align: center;
+    }
+    .card p.text-secondary{
+    width: 90%;
+    text-align: left;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 35px;
+    }
+    .tech-card img {
+    width: 150px;
+}

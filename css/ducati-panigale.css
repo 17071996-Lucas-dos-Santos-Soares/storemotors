@@ -189,7 +189,7 @@ hr{
     line-height: 1.6;
     letter-spacing: 0.6px;
     margin-left: -20px;
-    text-align: left;
+    text-align: center;
 }
 .galeria-motos{
     width: 100%;
@@ -284,8 +284,6 @@ hr{
     .card p{
         font-size: 14px;
         text-align: center;
-        margin-left: -37px;
-        margin-right: 5px;
     }
     small.text-secondary{
         text-align: left;
@@ -297,7 +295,7 @@ hr{
     width: 90%;
     text-align: left;
     padding-bottom: 20px;
-    text-align: left;
+    text-align: center;
     padding-left: 35px;
     }
     .tech-card img {
