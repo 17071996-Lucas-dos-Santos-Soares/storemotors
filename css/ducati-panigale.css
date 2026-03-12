@@ -258,10 +258,11 @@ hr{
         background-position: center;
     }
     .frase p{
-        width: 357px;
-        font-size: 1.8rem;
+        width: 128%;
+        font-size: 1.5rem;
         text-align: center;
-        margin-left: -23px;
+        margin-left: -35px;
+        margin-right: -35px;
     }
     .frase a{
         color: #000;
@@ -284,16 +285,16 @@ hr{
     .card p{
         font-size: 14px;
         text-align: center;
+        margin: 0px;
     }
     small.text-secondary{
-        text-align: left;
+        padding-left: 134px;
     }
     .ficha-tecnica h3{
         text-align: center;
     }
     .card p.text-secondary{
     width: 90%;
-    text-align: left;
     padding-bottom: 20px;
     text-align: center;
     padding-left: 35px;
