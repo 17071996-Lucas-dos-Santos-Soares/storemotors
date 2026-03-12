@@ -260,10 +260,10 @@ hr{
         padding-bottom: 50px;
     }
     .frase p{
-        width: 357px;
+        width: 128%;
         font-size: 1.8rem;
         text-align: center;
-        margin-left: -23px;
+        margin-left: -35px;
     }
     .frase a{
         color: #000;
@@ -286,9 +286,10 @@ hr{
     .card p{
         font-size: 14px;
         text-align: center;
+        margin: 0px;
     }
     small.text-secondary{
-        text-align: left;
+        padding-left: 134px;
     }
     .ficha-tecnica h3{
         text-align: center;
@@ -297,14 +298,13 @@ hr{
     width: 90%;
     text-align: left;
     padding-bottom: 20px;
-    text-align: left;
     padding-left: 35px;
     }
     .tech-card img {
-    width: 150px;
+    width: 100%;
 }
     .galeria-motos img{
-        width: 50%;
+        width: 100%;
         height: auto;
         margin-top: 70px;
     }
