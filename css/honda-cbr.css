@@ -256,8 +256,10 @@ hr{
         padding-bottom: 50px;
     }
     .frase p{
+        width: 133%;
         font-size: 1.8rem;
         text-align: center;
+        margin-left: -px;
     }
     .frase a{
         color: #000;
@@ -280,6 +282,7 @@ hr{
     .card p{
         font-size: 14px;
         text-align: center;
+        margin: 0px;
     }
     .tech-card img{
     width: 150px;
